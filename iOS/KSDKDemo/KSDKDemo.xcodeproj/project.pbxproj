@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44E699B1F73CF69005AAFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E699A1F73CF69005AAFDD /* AppDelegate.swift */; };
+		C44E699D1F73CF69005AAFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E699C1F73CF69005AAFDD /* ViewController.swift */; };
+		C44E69A01F73CF69005AAFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E699E1F73CF69005AAFDD /* Main.storyboard */; };
+		C44E69A21F73CF69005AAFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44E69A11F73CF69005AAFDD /* Assets.xcassets */; };
+		C44E69A51F73CF69005AAFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E69A31F73CF69005AAFDD /* LaunchScreen.storyboard */; };
+		C44E69C01F73D3D6005AAFDD /* KSDKFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E69BE1F73D2DB005AAFDD /* KSDKFramework.framework */; };
+		C44E69C11F73D3D6005AAFDD /* KSDKFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C44E69BE1F73D2DB005AAFDD /* KSDKFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C44E69C61F73D6AE005AAFDD /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E69C31F73D6AE005AAFDD /* ObjectMapper.framework */; };
+		C44E69C71F73D6AE005AAFDD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E69C41F73D6AE005AAFDD /* Alamofire.framework */; };
+		C44E69C81F73D6AE005AAFDD /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E69C51F73D6AE005AAFDD /* CryptoSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C44E69B11F73D022005AAFDD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C44E69C11F73D3D6005AAFDD /* KSDKFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C44E69971F73CF69005AAFDD /* KSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44E699A1F73CF69005AAFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C44E699C1F73CF69005AAFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C44E699F1F73CF69005AAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44E69A11F73CF69005AAFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C44E69A41F73CF69005AAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C44E69A61F73CF69005AAFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44E69BE1F73D2DB005AAFDD /* KSDKFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSDKFramework.framework; sourceTree = "<group>"; };
+		C44E69C31F73D6AE005AAFDD /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		C44E69C41F73D6AE005AAFDD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		C44E69C51F73D6AE005AAFDD /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44E69941F73CF69005AAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E69C01F73D3D6005AAFDD /* KSDKFramework.framework in Frameworks */,
+				C44E69C61F73D6AE005AAFDD /* ObjectMapper.framework in Frameworks */,
+				C44E69C71F73D6AE005AAFDD /* Alamofire.framework in Frameworks */,
+				C44E69C81F73D6AE005AAFDD /* CryptoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44E698E1F73CF69005AAFDD = {
+			isa = PBXGroup;
+			children = (
+				C44E69BE1F73D2DB005AAFDD /* KSDKFramework.framework */,
+				C44E69991F73CF69005AAFDD /* KSDKDemo */,
+				C44E69981F73CF69005AAFDD /* Products */,
+				C44E69AC1F73CFD1005AAFDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C44E69981F73CF69005AAFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44E69971F73CF69005AAFDD /* KSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44E69991F73CF69005AAFDD /* KSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C44E699A1F73CF69005AAFDD /* AppDelegate.swift */,
+				C44E699C1F73CF69005AAFDD /* ViewController.swift */,
+				C44E699E1F73CF69005AAFDD /* Main.storyboard */,
+				C44E69A11F73CF69005AAFDD /* Assets.xcassets */,
+				C44E69A31F73CF69005AAFDD /* LaunchScreen.storyboard */,
+				C44E69A61F73CF69005AAFDD /* Info.plist */,
+			);
+			path = KSDKDemo;
+			sourceTree = "<group>";
+		};
+		C44E69AC1F73CFD1005AAFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44E69C41F73D6AE005AAFDD /* Alamofire.framework */,
+				C44E69C51F73D6AE005AAFDD /* CryptoSwift.framework */,
+				C44E69C31F73D6AE005AAFDD /* ObjectMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44E69961F73CF69005AAFDD /* KSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44E69A91F73CF69005AAFDD /* Build configuration list for PBXNativeTarget "KSDKDemo" */;
+			buildPhases = (
+				C44E69931F73CF69005AAFDD /* Sources */,
+				C44E69941F73CF69005AAFDD /* Frameworks */,
+				C44E69951F73CF69005AAFDD /* Resources */,
+				C44E69B11F73D022005AAFDD /* Embed Frameworks */,
+				C44E69C21F73D53D005AAFDD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSDKDemo;
+			productName = KSDKDemo;
+			productReference = C44E69971F73CF69005AAFDD /* KSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44E698F1F73CF69005AAFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kanjian;
+				TargetAttributes = {
+					C44E69961F73CF69005AAFDD = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C44E69921F73CF69005AAFDD /* Build configuration list for PBXProject "KSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44E698E1F73CF69005AAFDD;
+			productRefGroup = C44E69981F73CF69005AAFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44E69961F73CF69005AAFDD /* KSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44E69951F73CF69005AAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E69A51F73CF69005AAFDD /* LaunchScreen.storyboard in Resources */,
+				C44E69A21F73CF69005AAFDD /* Assets.xcassets in Resources */,
+				C44E69A01F73CF69005AAFDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C44E69C21F73D53D005AAFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CryptoSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CryptoSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44E69931F73CF69005AAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E699D1F73CF69005AAFDD /* ViewController.swift in Sources */,
+				C44E699B1F73CF69005AAFDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C44E699E1F73CF69005AAFDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44E699F1F73CF69005AAFDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44E69A31F73CF69005AAFDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44E69A41F73CF69005AAFDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44E69A71F73CF69005AAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C44E69A81F73CF69005AAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44E69AA1F73CF69005AAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FL82KNXFQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanjian.KSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44E69AB1F73CF69005AAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FL82KNXFQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = KSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanjian.KSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44E69921F73CF69005AAFDD /* Build configuration list for PBXProject "KSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44E69A71F73CF69005AAFDD /* Debug */,
+				C44E69A81F73CF69005AAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44E69A91F73CF69005AAFDD /* Build configuration list for PBXNativeTarget "KSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44E69AA1F73CF69005AAFDD /* Debug */,
+				C44E69AB1F73CF69005AAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44E698F1F73CF69005AAFDD /* Project object */;
+}

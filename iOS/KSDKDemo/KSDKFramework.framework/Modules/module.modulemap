@@ -1,0 +1,11 @@
+framework module KSDKFramework {
+  umbrella header "KSDKFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module KSDKFramework.Swift {
+    header "KSDKFramework-Swift.h"
+    requires objc
+}
